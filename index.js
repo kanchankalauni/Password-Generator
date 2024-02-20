@@ -60,6 +60,6 @@ btn.addEventListener("click", () => {
 })
 
 copyBtn.addEventListener('click', () => {
-    window.navigator.clipboard.writeText("newPass.innerText")
+    window.navigator.clipboard.writeText(newPass.innerText)
     alert("Password Copied")
 })
